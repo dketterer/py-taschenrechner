@@ -23,7 +23,10 @@ print("Hallo Welt")
 
 *Text einlesen*
 
-`variable = input("Jetzt Text eingeben\n")`
+```
+variable = input("Jetzt Text eingeben\n")
+print("Du hast " + variable + " eingegeben.")
+```
 
 *if - else*
 
@@ -39,7 +42,8 @@ else:
 ```
 
 **Merke: Einrückung**
-> in Python sind die Einrückungen wichtig. Die Einrückungen ersetzen die geschweiften Klammern die wir aus Java oder anderen Programmiersprachen kennen.
+> in Python sind die Einrückungen wichtig. Die Einrückungen ersetzen die geschweiften Klammern die wir aus Java oder anderen Programmiersprachen kennen.  
+> Für alle anderen: Die Einrückung zeigt, dass die eingerückten Zeilen zusammen zum if, bzw. elif oder else gehören.
 
 **Merke: Zeilenende**
 > in Python brauchen wir am Zeilenende kein Semikolon
@@ -60,8 +64,13 @@ string_zahl2 = "7"
 ergebnis = string_zahl + string_zahl2
 # ergebnis ist jetzt 57
 
-zahl1 = int(string_zahl)
-zahl2 = int(string_zahl2)
+zahl1 = 5
+zahl2 = 7
 ergebnis = zahl1 + zahl2
 # ergebnis ist jetzt 12
+
+int_zahl1 = int(string_zahl)
+int_zahl2 = int(string_zahl2)
+ergebnis = int_zahl1 + int_zahl2
+# ergebnis ist immer noch 12
 ```
