@@ -13,11 +13,12 @@ print("Hallo Welt")
 **Programmablauf**
 
 1. Zahl 1 eingeben
-2. Rechenoperation
+2. Rechenoperation eingeben
 3. Zahl 2 eingeben
-4. Zahlen von Text in Computerzahlen
+4. Zahlen von Text in Computerzahlen konvertieren
 5. Ergebnis ausrechnen
 6. Ergebnis ausgeben
+
 
 **Vorbereitungen**
 
